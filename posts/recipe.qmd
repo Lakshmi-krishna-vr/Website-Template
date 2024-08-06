@@ -1,0 +1,26 @@
+---
+categories:
+- blog post
+format:
+  html:
+    df-print: paged
+    toc: true
+text: How to prepare a delicious chicken biriyani!!
+title: Come ..lets eat some new..
+
+---
+
+Chicken pieces
+Basmati rice
+Onions, tomatoes, and garlic
+Arabic spices (like cardamom, cinnamon, cloves, and bay leaves)
+Yogurt
+Fresh coriander and mint leaves
+Saffron soaked in rose water
+Ghee or oil
+Preparation:
+Marinate the chicken: Mix chicken with yogurt, garlic paste, and Arabic spices. Let it marinate for at least an hour.
+Cook the rice: Boil basmati rice with whole spices until it’s 70% cooked. Drain and set aside.
+Prepare the gravy: Fry onions until golden brown, add tomatoes, and cook until soft. Add marinated chicken and cook until tender.
+Layering: In a large pot, layer the rice and chicken gravy. Sprinkle fresh coriander, mint leaves, and saffron water between layers.
+Dum cooking: Cover the pot with a tight lid and cook on low heat for about 20-30 minutes.

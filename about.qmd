@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "My Personal Webpage"
 ---
 
-I'm a second year Computer Science and Engineering student doing minor in Computational Mathematics with a passion for pushing the boundaries of knowledge in AI. With a strong background in Computer Science, my research focuses on Practive Oriented AI, aiming to contribute to meaningful advancements and solutions.
+Myself Lakshmi Krishna V R and i am  a second year Computer Science and Engineering student doing minor in Computational Mathematics with a passion for pushing the boundaries of knowledge in AI. With a strong background in Computer Science, my research focuses on Practive Oriented AI, aiming to contribute to meaningful advancements and solutions.My passion for engineering stems from a deep curiosity about how things work and a desire to solve real-world problems through innovative solutions.
