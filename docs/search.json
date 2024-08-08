@@ -4,7 +4,7 @@
     "href": "workshops.html",
     "title": "Workshops Attended",
     "section": "",
-    "text": "2024\n\nAdvanced Tools for Literate Programming and Machine Learning, August 6-7, 2024"
+    "text": "2024\n\nAdvanced Tools for Literate Programming and Machine Learning, August 6-7, 2024\nPMI- wings\nsolid works fundamentals and 3D printing April 4,2024\nAI with python april 6,2024"
   },
   {
     "objectID": "posts/post.html",
@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Blogpost Example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nइंटर्नशिप का महत्व\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA sample work\n\n\n\n\n\n\nblog with code\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blogpost Example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nइंटर्नशिप का महत्व\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA sample work\n\n\n\n\n\n\nblog with code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCome ..lets eat some new..\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -54,5 +54,12 @@
     "title": "A sample work",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "posts/recipe.html",
+    "href": "posts/recipe.html",
+    "title": "Come ..lets eat some new..",
+    "section": "",
+    "text": "Chicken pieces Basmati rice Onions, tomatoes, and garlic Arabic spices (like cardamom, cinnamon, cloves, and bay leaves) Yogurt Fresh coriander and mint leaves Saffron soaked in rose water Ghee or oil Preparation: Marinate the chicken: Mix chicken with yogurt, garlic paste, and Arabic spices. Let it marinate for at least an hour. Cook the rice: Boil basmati rice with whole spices until it’s 70% cooked. Drain and set aside. Prepare the gravy: Fry onions until golden brown, add tomatoes, and cook until soft. Add marinated chicken and cook until tender. Layering: In a large pot, layer the rice and chicken gravy. Sprinkle fresh coriander, mint leaves, and saffron water between layers. Dum cooking: Cover the pot with a tight lid and cook on low heat for about 20-30 minutes."
   }
 ]
