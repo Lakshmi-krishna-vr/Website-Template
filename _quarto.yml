@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "A Journey Within"
+  title: "Personal Website"
   
   navbar:
     left:
@@ -17,23 +17,23 @@ website:
       - about.qmd
   sidebar:
     style: "docked"
-    logo: "./images/user_image.png"
+    logo: "./images/me.jpg"
     search: true
     collapse-level: 2
     contents:
       - icon: github
         text: Github
-        url: https://github.com
+        url: https://github.com/Lakshmi-krishna-vr
       - icon: twitter
         text: Twitter
         url: https://twitter.com
       - icon: Email
       - text: "Email"
-        url: mailto:siju.swamy@saintgits.org
-      - text: "ORCID"
-        url: https://orcid.org/<orcid-id>
-      - text: "Google Scholar"
-        url: https://scholar.google.com/citations?user=<google-scholar-user>
+        url: mailto:vrlakshmikrishna@gmail.com
+      - text: "Instagram"
+        url: https://instagram.com/_lakzzz___
+      - text: "Twitter"
+        url: https://twitter.com
   announcement: 
     icon: info-circle
     dismissable: true
