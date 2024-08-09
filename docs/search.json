@@ -7,39 +7,11 @@
     "text": "2024\n\nAdvanced Tools for Literate Programming and Machine Learning, August 6-7, 2024\nPMI- wings\nsolid works fundamentals and 3D printing April 4,2024\nAI with python april 6,2024"
   },
   {
-    "objectID": "posts/post.html",
-    "href": "posts/post.html",
-    "title": "इंटर्नशिप का महत्व",
+    "objectID": "posts/post_with_code.html",
+    "href": "posts/post_with_code.html",
+    "title": "A sample work",
     "section": "",
-    "text": "इंटर्नशिप का महत्व\nइंटर्नशिप एक ऐसा अनुभव है जो छात्रों को उनके चुने हुए क्षेत्र में व्यावहारिक ज्ञान और कौशल प्रदान करता है। यह न केवल उनके करियर की शुरुआत में मदद करता है, बल्कि उन्हें वास्तविक दुनिया के कार्य वातावरण से भी परिचित कराता है। यहाँ इंटर्नशिप के कुछ प्रमुख लाभ दिए गए हैं:\nव्यावहारिक ज्ञान: इंटर्नशिप के दौरान छात्रों को किताबों में पढ़ाई गई चीजों को वास्तविक जीवन में लागू करने का मौका मिलता है। इससे उन्हें प्रैक्टिकल नॉलेज प्राप्त होती है जो उनके करियर में बहुत महत्वपूर्ण होती है1.\nनेटवर्किंग: इंटर्नशिप के दौरान छात्रों को विभिन्न पेशेवरों से मिलने और उनके साथ काम करने का मौका मिलता है। इससे उनका नेटवर्क बढ़ता है और भविष्य में नौकरी पाने में मदद मिलती है2.\nकौशल विकास: इंटर्नशिप के दौरान छात्रों को विभिन्न सॉफ्ट स्किल्स जैसे कि कम्युनिकेशन, टीमवर्क, और टाइम मैनेजमेंट सीखने का मौका मिलता है। ये कौशल उनके पेशेवर जीवन में बहुत महत्वपूर्ण होते हैं1.\nरिज्यूमे में सुधार: एक अच्छी इंटर्नशिप का अनुभव छात्रों के रिज्यूमे को मजबूत बनाता है। इससे उन्हें नौकरी पाने में आसानी होती है और वे अपने प्रतिस्पर्धियों से आगे रहते हैं2.\nआत्मविश्वास में वृद्धि: इंटर्नशिप के दौरान छात्रों को विभिन्न चुनौतियों का सामना करना पड़ता है। इससे उनका आत्मविश्वास बढ़ता है और वे अपने करियर में आने वाली कठिनाइयों का सामना करने के लिए तैयार होते हैं1. इंटर्नशिप का अनुभव छात्रों को उनके करियर की दिशा में एक मजबूत नींव प्रदान करता है। यह उन्हें न केवल व्यावसायिक ज्ञान और कौशल प्रदान करता है, बल्कि उन्हें एक पेशेवर वातावरण में काम करने का अनुभव भी देता है।"
-  },
-  {
-    "objectID": "papers.html",
-    "href": "papers.html",
-    "title": "Papers",
-    "section": "",
-    "text": "2024\n\nResearcher (2024). A very Cool AI Paper. arXiv 2402.10951."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Blogpost Example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nइंटर्नशिप का महत्व\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA sample work\n\n\n\n\n\n\nblog with code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCome ..lets eat some new..\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "My Personal Webpage",
-    "section": "",
-    "text": "Myself Lakshmi Krishna V R and i am a second year Computer Science and Engineering student doing minor in Computational Mathematics with a passion for pushing the boundaries of knowledge in AI. With a strong background in Computer Science, my research focuses on Practive Oriented AI, aiming to contribute to meaningful advancements and solutions.My passion for engineering stems from a deep curiosity about how things work and a desire to solve real-world problems through innovative solutions."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My Personal Webpage",
-    "section": "",
-    "text": "Welcome to my personal page! I thrive on solving complex problems and love turning innovative ideas into reality. Whether I’m coding, designing, or exploring new fields, I bring dedication and curiosity to everything I do. Outside of work, I enjoy hiking, reading science fiction, and experimenting with new recipes. Here, you’ll find insights into my projects, interests, and the journey I’m on to make a positive impact in the world. Thank you for visiting, and I hope you find something that inspires you!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "posts/another_post.html",
@@ -49,11 +21,39 @@
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
-    "objectID": "posts/post_with_code.html",
-    "href": "posts/post_with_code.html",
-    "title": "A sample work",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Personal Webpage",
     "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "Myself Lakshmi Krishna V R and i am a second year Computer Science and Engineering student doing minor in Computational Mathematics with a passion for pushing the boundaries of knowledge in AI. With a strong background in Computer Science, my research focuses on Practive Oriented AI, aiming to contribute to meaningful advancements and solutions.My passion for engineering stems from a deep curiosity about how things work and a desire to solve real-world problems through innovative solutions."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "My Personal Webpage",
+    "section": "",
+    "text": "Myself Lakshmi Krishna V R and i am a second year Computer Science and Engineering student doing minor in Computational Mathematics with a passion for pushing the boundaries of knowledge in AI. With a strong background in Computer Science, my research focuses on Practive Oriented AI, aiming to contribute to meaningful advancements and solutions.My passion for engineering stems from a deep curiosity about how things work and a desire to solve real-world problems through innovative solutions."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blogpost Example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nइंटर्नशिप का महत्व\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA sample work\n\n\n\n\n\n\nblog with code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCome ..lets eat some new..\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "2024\n\nResearcher (2024). A very Cool AI Paper. arXiv 2402.10951."
+  },
+  {
+    "objectID": "posts/post.html",
+    "href": "posts/post.html",
+    "title": "इंटर्नशिप का महत्व",
+    "section": "",
+    "text": "इंटर्नशिप का महत्व\nइंटर्नशिप एक ऐसा अनुभव है जो छात्रों को उनके चुने हुए क्षेत्र में व्यावहारिक ज्ञान और कौशल प्रदान करता है। यह न केवल उनके करियर की शुरुआत में मदद करता है, बल्कि उन्हें वास्तविक दुनिया के कार्य वातावरण से भी परिचित कराता है। यहाँ इंटर्नशिप के कुछ प्रमुख लाभ दिए गए हैं:\nव्यावहारिक ज्ञान: इंटर्नशिप के दौरान छात्रों को किताबों में पढ़ाई गई चीजों को वास्तविक जीवन में लागू करने का मौका मिलता है। इससे उन्हें प्रैक्टिकल नॉलेज प्राप्त होती है जो उनके करियर में बहुत महत्वपूर्ण होती है1.\nनेटवर्किंग: इंटर्नशिप के दौरान छात्रों को विभिन्न पेशेवरों से मिलने और उनके साथ काम करने का मौका मिलता है। इससे उनका नेटवर्क बढ़ता है और भविष्य में नौकरी पाने में मदद मिलती है2.\nकौशल विकास: इंटर्नशिप के दौरान छात्रों को विभिन्न सॉफ्ट स्किल्स जैसे कि कम्युनिकेशन, टीमवर्क, और टाइम मैनेजमेंट सीखने का मौका मिलता है। ये कौशल उनके पेशेवर जीवन में बहुत महत्वपूर्ण होते हैं1.\nरिज्यूमे में सुधार: एक अच्छी इंटर्नशिप का अनुभव छात्रों के रिज्यूमे को मजबूत बनाता है। इससे उन्हें नौकरी पाने में आसानी होती है और वे अपने प्रतिस्पर्धियों से आगे रहते हैं2.\nआत्मविश्वास में वृद्धि: इंटर्नशिप के दौरान छात्रों को विभिन्न चुनौतियों का सामना करना पड़ता है। इससे उनका आत्मविश्वास बढ़ता है और वे अपने करियर में आने वाली कठिनाइयों का सामना करने के लिए तैयार होते हैं1. इंटर्नशिप का अनुभव छात्रों को उनके करियर की दिशा में एक मजबूत नींव प्रदान करता है। यह उन्हें न केवल व्यावसायिक ज्ञान और कौशल प्रदान करता है, बल्कि उन्हें एक पेशेवर वातावरण में काम करने का अनुभव भी देता है।"
   },
   {
     "objectID": "posts/recipe.html",

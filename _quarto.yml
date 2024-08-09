@@ -34,12 +34,8 @@ website:
         url: https://instagram.com/_lakzzz___
       - text: "Twitter"
         url: https://twitter.com
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Alert** - This Website is created using `Quarto` and Published as Github Pages"
-    type: primary
-    position: below-navbar
+       
+        
 format:
   html:
     theme: cosmo
